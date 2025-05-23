@@ -7,15 +7,15 @@ let browser_url = window.location.href;
 
 
  if (browserUrl.includes('/en')) {
-widgetDescription = "I'm pretty smart, but I need a couple of seconds to think💡 I'm still learning, so I might make small mistakes.";
+widgetDescription = "I'm pretty smart, but I need a couple of seconds to think🏃 I'm still learning, so I might make small mistakes.";
 inputPlaceholder = "Message...";
 widgetStylesheet = "https://kristoman-rikardo.github.io/buttonlabels/en.css";
 } else if (browserUrl.includes('/se')) {
-widgetDescription = "Jag är ganska smart, men behöver ett par sekunder för att tänka efter🏃";
+widgetDescription = "Jag är ganska smart, men behöver ett par sekunder för att tänka efter🏃 Jag är fortfarande under utbildning och kan därför göra små misstag.";
 inputPlaceholder = "Skriv meddelande...";
 widgetStylesheet = "https://kristoman-rikardo.github.io/buttonlabels/no.css";
 } else {
-widgetDescription = "Jag är ganska smart, men behöver ett par sekunder för att tänka efter🏃";
+widgetDescription = "Jag är ganska smart, men behöver ett par sekunder för att tänka efter🏃 Jag är fortfarande under utbildning och kan därför göra små misstag.";
 inputPlaceholder = "Skriv meddelande...";
 widgetStylesheet = "https://kristoman-rikardo.github.io/buttonlabels/no.css";
 }
